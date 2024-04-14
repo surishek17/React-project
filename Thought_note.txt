@@ -1,0 +1,29 @@
+Hi, I am Shekhar Suri from Una (Himachal Pradesh).
+
+This is my Fourth Backend Assignment. 
+
+*Before Run the Program Please Firstly run "npm install" command to install the "node-modules" and "package.json","package-lock.json" file  in the folder*.
+
+In this Assignment, Firstly i am created a BackModAss4_Surishekhar17@gmail.com folder in this folder i used command "npx create-react-app webapp-part-1". In this command the Public and src and node modules files with package.json and package-lock.json file installed.
+
+Now, In the public folder i only edit the "index.html" file .In this file i have added the bootstrap css links for the responsiveness and google fonts and also giving the title for the web app.
+
+Now, I have created "components" folder in "src" folder.In "src" folder again i have created "pages" folder.
+
+Now ,In the components folder i have created NavBar.js file to created navbar for the app and also i have attached all the files like NavBar.css,addSales.js,login.js,logout.js,register.js,todayRevenue.js,top5.js etc.  
+
+Now, In the pages folder i have created files like addSales.js,login.js,logout.js,register.js,todayRevenue.js,top5.js etc.
+
+Now, In the "addSales" file i have given the title "ADD SALE ENTRY". Now, i was using form tag to create a form . In the form i have used the fields like Product Name , Quantity , Amount etc. 
+
+Now, In the "login" file i have given the title "Login form".Now, In this i was using form tag to create a form. In the form i have used the fields like Email and Password and Submit button.
+
+Now, In the "logout" file i have only given the thank you statement "Thank You for visiting web App!" only.
+
+Now, In the "register" file i have given the title "Registration form".  Now, i was using form tag to create a form . In the form i have used the fields like First Name, Last Name, Email, Password and Submit button.
+
+Now, In the "todayRevenue" file i have given the heading "Today's revenue is 175000".
+
+Now, In the "top5" file i have given the heading "TOP 5 SALES".  Now, I was using table heading like Sales id:, Product Name, Quantity, Sale Amount. And Now i was using table body in this table body i was using table row. In this table row i was using table data like S1212, Laptop, 2, 90000. I was used another table row with table data like S1423, Mobile, 5, 85000.
+
+Now, In the "App.js" file i have imported all the files. and I have added the pages using Router. Now in the router i have attached the Navbar and in the Router i have used the Routes to path all the routes like addSales, top5, todayRevenue, login, logout and register.
